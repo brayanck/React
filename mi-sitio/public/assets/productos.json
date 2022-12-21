@@ -1,0 +1,33 @@
+{
+    "status": "success",
+    "items": [
+
+{
+    "id": 207,
+    "title": "PC Oficina | AMD Athlon 3000G - A320 - 8GB - 240GB SSD",
+    "price": 40499,
+    "image": "imagenes/pcArmadas/PC_Oficina_CG_04_800.jpg",
+    "category": "pcArmada"
+},
+{
+    "id": 208,
+    "title": "PC Diseño | Intel I3 10100F- B460M - 8GB - GT 1030 - 240GB SSD - 1TB",
+    "price": 74699,
+    "image": "imagenes/pcArmadas/PC_Gamer_intel_10100.jpg",
+    "category": "pcArmada"
+},
+{
+    "id": 209,
+    "title": "PC Principiante | AMD Ryzen 3 2200G - A320 - 8GB - 240GB SSD",
+    "price": 52800,
+    "image": "imagenes/pcArmadas/PC_Gamer_CG_11_800.jpg",
+    "category": "pcArmada"
+},
+{
+    "id": 210,
+    "title": "PC Streaming AMD Ryzen 5 3600XT - B450 - 16GB - RTX 2060 - 240GB SSD - 1TB",
+    "price": 141000,
+    "image": "imagenes/pcArmadas/PC_Streaming_cg_3_800.jpg",
+    "category": "pcArmada"
+}
+    ]}
