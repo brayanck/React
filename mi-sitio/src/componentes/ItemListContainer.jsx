@@ -1,43 +1,35 @@
-import data from '../assets/productos.json'
-console.log(data)
-function ElementoDeLista ({image,price,id,title}){
-    return(
-        <>
-        
-            <div className="producto">
-			<div className="image__container">
-			    <img src={image} alt="sds"/>
-		    </div>
-          <div className="producto__footer">
-            <h3 className="titulo">${title}</h3>
-            <div className="price">$ {price}</div>
-          </div>
-          <div className="bottom">
-            <div className="btn__group">
-              <button className="btn addToCart" data-id={id}>Añadir carrito</button>
+import ItemList from "./itemList";
+import getItem from "../service/mockAsyncService";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
-            </div>
-          </div>
-        </div>
-        
-        </>
-    )
+function ElementoDeLista() {
+  const [products, setProducts] = useState([]);
+  console.log(useParams())
+  const {idCategory} =useParams()
 
-}
-function lista() {
-    return (
-        <div >
-        <div className='productos'>
-        <h1 className="titulo_index">Pc armadas</h1>
-        <div className="productos__center">
-            {
-                data.items.map((el)=><ElementoDeLista  key={el.id} {...el}/>)
-            }
-            </div>
-        </div>
-        </div>
-    );
+  useEffect(() => {
+    getItem(idCategory).then((respuesta) => {
+      console.log(respuesta);
+      setProducts(respuesta);
+    });
+  }, [idCategory]);
+  
+  let titulo;
+  if(idCategory===undefined){
+    titulo = "productos"
   }
-  
-  export default lista;
-  
+  else{
+    titulo=idCategory
+  }
+  return (
+    <div>
+      <div className="productos">
+        <h1 className="titulo_index">{titulo}</h1>
+        <ItemList products={products}/>
+      </div>
+    </div>
+  );
+}
+
+export default ElementoDeLista;
