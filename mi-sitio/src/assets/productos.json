@@ -2,32 +2,314 @@
     "status": "success",
     "items": [
 
+        {
+            "id": 9,
+            "title": "Notebook Lenovo 14 AMD Pro A4-4350B 4GB 500GB DOS",
+            "price": 54499,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_847991-MLA44008251185_112020-O.jpg",
+            "category": "notebooks",
+            "stock": 40
+        },
+        {
+            "id": 10,
+            "title": "Notebook HP 14 Ryzen 3 3250U 4GB 1TB Win10 US",
+            "price": 71599,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_683255-MLA45683745820_042021-O.jpg",
+            "category": "notebooks",
+            "stock": 100
+        },
+        {
+            "id": 11,
+            "title": "Notebook HP 240 14 Core i3-1005G1 4GB 1TB FreeDos US",
+            "price": 76800,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_836601-MLA48462443412_122021-O.webp",
+            "category": "notebooks",
+            "stock": 17
+        },
+        {
+            "id": 12,
+            "title": "Notebook HDC HY 15.6 FHD Core i3 1005G 8GB SSD 256GB Win 10",
+            "price": 78000,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWa_qviSIv6pMeXlM6Y3cvpLnwHvGO56WecHfswrQF9bX9KDxMm-6k3QsxWCMPd3RuaTw&usqp=CAU",
+            "category": "notebooks",
+            "stock": 11
+        },
+        {
+            "id": 13,
+            "title": "Notebook ASUS Vivobook F512J 15.6 i3 1005G1 4GB 128GB WIN10",
+            "price": 78200,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_952693-MLA47360556668_092021-O.jpg",
+            "category": "notebooks",
+            "stock": 10
+        },
+        {
+            "id": 14,
+            "title": "Notebook ASUS ZenBook UX433FLC 14 i5 10210U 8GB SSD 512GB Optane 32GB WIN10",
+            "price": 141499,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_713505-MLA45014603518_022021-O.jpg",
+            "category": "notebooks",
+            "stock": 18
+            
+        },
+        {
+            "id": 15,
+            "title": "Notebook ASUS ZenBook UX425EA 14 Core i5 1135G7 8GB SSD 512GB WIN10",
+            "price": 143699,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_615317-MLA52853503201_122022-V.webp",
+            "category": "notebooks",
+            "stock": 29
+        },
+        {
+            "id": 16,
+            "title": "Notebook Gamer ASUS TUF FX506 15.6 Core i5 10300H GTX 1650Ti 4GB 512GB Win10 144Hz",
+            "price": 149800,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_814690-MLA48665574268_122021-O.jpg",
+            "category": "notebooks",
+            "stock": 2
+        },
+        {
+            "id": 17,
+            "title": "Notebook Lenovo IP 3 15 Core i5-10300H 8GB M.2 128GB 1TB GTX 1650 WIN10",
+            "price": 154000,
+            "image": "https://app.contabilium.com/files/explorer/16277/Productos-Servicios/concepto-5939402.jpg",
+            "category": "notebooks",
+            "stock": 9
+        },
+        {
+            "id": 18,
+            "title": "Notebook ASUS ZenBook UX433 14 i5 10210U 8GB SSD 512GB FREE DOS",
+            "price": 163900,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_971836-MLA43954919874_102020-O.jpg",
+            "category": "notebooks",
+            "stock": 40
+
+        },
+        {
+            "id": 19,
+            "title": "Notebook ASUS ROG STRIX G512LV 15.6 144Hz i5-10300H 8GB 512Gb NVMe 1650Ti FreeDOS",
+            "price": 166.499,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_781491-MLA44284139855_122020-O.jpg",
+            "category": "notebooks",
+            "stock": 4
+        },
+        {
+            "id": 20,
+            "title": "Notebook ASUS ZenBook UX425EA 14 Core i7 1165G7 16GB M.2 512GB WIN10",
+            "price": 174699,
+            "image": "https://dlcdnwebimgs.asus.com/gain/8b2f6d00-c179-416f-af9f-6e7ba536743a/w800",
+            "category": "notebooks",
+            "stock": 40
+        },
+        {
+            "id": 21,
+            "title": "Notebook HP OMEN 15 i7 10750H 8GB 512GB Optane 32GB GF1650TI W10H",
+            "price": 193800,
+            "image": "https://front.dev.malditohard.com.ar/img/migration/NOTEBOOK-HP-OMEN-15EK0062LA-CI7-10750H-8GB-SSD-512GB-OPTANE.webp",
+            "category": "notebooks",
+            "stock": 18
+        },
+        {
+            "id": 22,
+            "title": "Notebook ASUS TUF FA506 15.6 144Hz Ryzen 7 4800H GTX1660Ti 6GB DDR4 16GB M.2 512GB W10",
+            "price": 208000,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_616122-MLA45138639874_032021-O.jpg",
+            "category": "notebooks",
+            "stock": 10
+        },
+        {
+            "id": 23,
+            "title": "Notebook ASUS ROG ZEPHYRUS 14 WQHD RYZEN 9 4900HS 16GB 1TB NVMe RTX 2060",
+            "price": 295200,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_782170-MLA45105630493_032021-O.jpg",
+            "category": "notebooks",
+            "stock": 25
+        },
 {
     "id": 207,
     "title": "PC Oficina | AMD Athlon 3000G - A320 - 8GB - 240GB SSD",
     "price": 40499,
-    "image": "imagenes/pcArmadas/PC_Oficina_CG_04_800.png",
-    "category": "pcArmada"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvIy0FLDiT5arJQvkSAmCTJI8Q7861D6I-V5SX5_LaOqYSb36IWduNYBFNRWTh-820Yo&usqp=CAU",
+    "category": "PC",
+    "stock": 40
+    
 },
 {
     "id": 208,
     "title": "PC Diseño | Intel I3 10100F- B460M - 8GB - GT 1030 - 240GB SSD - 1TB",
     "price": 74699,
-    "image": "../../assets/imagenes/pcArmadas/PC_Gamer_intel_10100.png",
-    "category": "pcArmada"
+    "image": "https://www.digitarinformatica.com.ar/wp-content/uploads/2021/08/Pc-Gamer-Intel-Core-I3-10100F-RAM-8GB-SSD-250GB-GT-1030.jpg",
+    "category": "PC",
+    "stock": 10
 },
 {
     "id": 209,
     "title": "PC Principiante | AMD Ryzen 3 2200G - A320 - 8GB - 240GB SSD",
     "price": 52800,
-    "image": "./imgenes/pcArmadas/PC_Gamer_CG_11_800.png",
-    "category": "pcArmada"
+    "image": "https://http2.mlstatic.com/D_NQ_NP_666319-MLA45434590788_042021-O.webp",
+    "category": "PC",
+    "stock": 6
 },
 {
     "id": 210,
     "title": "PC Streaming AMD Ryzen 5 3600XT - B450 - 16GB - RTX 2060 - 240GB SSD - 1TB",
     "price": 141000,
-    "image": "imagenes/pcArmadas/PC_Streaming_cg_3_800.png",
-    "category": "pcArmada"
+    "image": "https://bangho.vtexassets.com/arquivos/ids/160889-1200-auto?v=637795820476770000&width=1200&height=auto&aspect=true",
+    "category": "PC",
+    "stock": 30
+},
+{
+    "id": 155,
+    "title": "Mouse Havit Gamenote MS1022 RGB 3200 Dpi",
+    "price": 1452,
+    "image": "https://gicovideojuegos.com/web/image/product.template/724/image",
+    "category": "mause",
+    "stock": 35
+},
+{
+    "id": 156,
+    "title": "Mouse Redragon Centrophorus M601 RGB",
+    "price": 1518,
+    "image": "https://redragon.es/content/uploads/2021/04/CETROPHORUS-RGB.png",
+    "category": "mause",
+    "stock": 20
+},
+{
+    "id": 157,
+    "title": "Mouse Redragon M607 Griffin",
+    "price": 1635,
+    "image": "https://s3-sa-east-1.amazonaws.com/saasargentina/js5YAR90pHrt0Vvo5kCB/imagen",
+    "category": "mause",
+    "stock": 16
+},
+{
+    "id": 158,
+    "title": "Mouse Redragon M710 Memeanlion Chroma",
+    "price": 1908,
+    "image": "https://www.laeditorial.com.ar/24887-large_default/mouse-redragon-gamer-m710-memeanlion-chroma-pgb.jpg",
+    "category": "mause",
+    "stock": 11
+},
+{
+    "id": 159,
+    "title": "Mouse Logitech G203 Lightsync Azul",
+    "price": 2464,
+    "image": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/910-005795_800.jpg",
+    "category": "mause",
+    "stock": 3
+},
+{
+    "id": 160,
+    "title": "Mouse Redragon M908 IMPACT RGB MOBA Y MMORPG",
+    "price": 2836,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8vlN4bZFaniyOFIaavbPTUhDjL6WR_BCgr0YnAAQR33dcZY7UzgvXBzrljeMHwWiaT4&usqp=CAU",
+    "category": "mause",
+    "stock": 9
+},
+{
+    "id": 161,
+    "title": "Mouse Redragon M988 Storm Elite",
+    "price": 3314,
+    "image": "https://redragon.es/content/uploads/2021/04/STORM-ELITE.png",
+    "category": "mause",
+    "stock": 30
+},
+{
+    "id": 162,
+    "title": "Mouse Logitech G502 LIGHTSPEED",
+    "price": 9231,
+    "image": "http://d2r9epyceweg5n.cloudfront.net/stores/001/551/183/products/g502-l1-2c6510d130d1b99dc116474056153991-640-0.jpg",
+    "category": "mause",
+    "stock": 30
+},
+{
+    "id": 163,
+    "title": "Mouse Razer Viper Ultimate Mercury Wireless Con Charging Dock",
+    "price": 15771,
+    "image": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-5846523.jpg",
+    "category": "mause",
+    "stock": 20
+},
+{
+    "id": 164,
+    "title": "Mouse Logitech G600 Gaming Black RGB",
+    "price": 5215,
+    "image": "https://computelweb.com/wp-content/uploads/2020/12/61QYugFCxPL._AC_SY450_.jpg",
+    "category": "mause",
+    "stock": 30
+},
+
+
+
+{
+    "id": 137,
+    "title": "Teclado Redragon K552 Kumara Mecanico RGB White Esp Switch Red",
+    "price": 5926,
+    "image": "https://www.compugarden.com.ar/Temp/App_WebSite/App_PictureFiles/Items/6950376778932_800.jpg",
+    "category": "teclado",
+    "stock": 15
+},
+{
+    "id": 138,
+    "title": "Teclado Mecanico Redragon Magic Wand PRO K587 RGB",
+    "price": 6611,
+    "image": "https://www.venex.com.ar/products_images/1628705792_sd5f4gds.jpg",
+    "category": "teclado",
+    "stock": 9
+},
+{
+    "id": 139,
+    "title": "Teclado Mecanico Redragon Draconic K530 White RGB Inalambrico Outemu Brown",
+    "price": 7221,
+    "image": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/6950376778109.jpg",
+    "category": "teclado",
+    "stock": 21
+},
+{
+    "id": 140,
+    "title": "Teclado Redragon K550 Yama Mecanico RGB Negro ESPAÑOL",
+    "price": 7289,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpSKrQ9P7MyC1Dv2GIyewHIvyx2r9fGTnfjD6AuaMMAmBDeFDBDkLywpTa5tvG4eQ9L_Y&usqp=CAU",
+    "category": "teclado",
+    "stock": 37
+},
+{
+    "id": 141,
+    "title": "Teclado Cougar Vantar MX",
+    "price": 7291,
+    "image": "https://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2019/08/02-1.png",
+    "category": "teclado",
+    "stock": 19
+},
+{
+    "id": 142,
+    "title": "Teclado Mecanico Logitech PRO RGB Lightsync Switch GX Blue TKL",
+    "price": 8943,
+    "image": "http://d3ugyf2ht6aenh.cloudfront.net/stores/349/695/products/log-gpro_21-501e073f6aca5f549015941547535680-640-0.png",
+    "category": "teclado",
+    "stock": 30
+},
+{
+    "id": 143,
+    "title": "Teclado Trust Ziva Gaming Rainbow LED",
+    "price": 1322,
+    "image": "https://www.precio-calidad.com.ar/wp-content/uploads/2020/11/TRUST-Ziva-Gaming-Rainbow-6.jpg",
+    "category": "teclado",
+    "stock": 3
+},
+{
+    "id": 144,
+    "title": "Teclado Trust Thado GXT833 TKL Rainbow LED ES",
+    "price": 1657,
+    "image": "https://www.compugarden.com.ar/Temp/App_WebSite/App_PictureFiles/Items/8713439236989_800.jpg",
+    "category": "teclado",
+    "stock": 20
+},
+{
+    "id": 148,
+    "title": "Teclado Razer Ornata V2 Chroma RGB Español",
+    "price": 10733,
+    "image": "https://www.qloud.ar/SITES/ryr/fotos/14637-0.jpg",
+    "category": "teclado",
+    "stock": 30
 }
     ]}

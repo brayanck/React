@@ -1,47 +1,30 @@
 import React from "react";
 import Carrito from "./Carrito";
 import logo from "../assets/imgenes/logo.png"
+import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <header className="nav">
       <div className="nav__center container">
         <div className='nav_logo'>
-           <img src={logo} className="App-logo" alt="logo" />
+          <Link to="/">
+            <img src={logo} className="App-logo" alt="logo" />
+          </Link>
         </div>
       <Carrito/>
       
       <ul className="nav__list">
         <li className="item">
-          <a
-            className="link"
-            href="https:"
-          >
-            PC armada
-          </a>
+          <Link to="/category/PC">PC</Link>
         </li>
         <li className="item">
-        <a
-            className="link"
-            href="https:"
-          >
-            Notebook
-          </a>
+        <Link to="/category/notebooks">Notebook</Link>
         </li>
         <li className="item">
-        <a
-            className="link"
-            href="https:"
-          >
-            Componentes
-          </a>
+        <Link to="/category/teclado">teclado</Link>
         </li>
         <li className="item">
-        <a
-            className="link"
-            href="https:"
-          >
-            Perifericos
-          </a>
+        <Link to="/category/mause">mause</Link>
         </li>
       </ul>
       </div>

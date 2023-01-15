@@ -43,7 +43,7 @@ li{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 3rem 0;
+  padding: 1rem 0;
   line-height: 1rem;
   background-color: black;
   justify-content:center;
@@ -148,7 +148,7 @@ li{
   display: inline-block;
   border: 1px solid #ccc;
   padding: 1rem 1rem;
-  color: var(--black);
+  color: black;
   font-weight: 500;
   font-size: 1.7rem;
   cursor: pointer;
@@ -157,7 +157,7 @@ li{
 }
 .btn:hover{
   background-color: red;
-  color: var(--white);
+  color: white;
   border: none;
   
 }
@@ -168,6 +168,36 @@ li{
 }
 .image__container img{
   width: 250px;
-  height:250px;
+  height:200px;
   
+}
+.detalles{
+  margin-top: 200px;
+  flex-direction: row;
+  justify-content: center;
+}
+.detalles img{
+  width: 50rem;
+  height: 40rem;
+}
+.datos {
+  width: 50%;
+}
+.contador{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.contador h2 {
+  margin: 10px;
+}
+.datoContador{
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorBoton{
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
 }
